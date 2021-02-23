@@ -1,0 +1,6 @@
+framework module Pods_TryApp {
+  umbrella header "Pods-TryApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
