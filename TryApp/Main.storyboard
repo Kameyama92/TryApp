@@ -302,7 +302,7 @@
             <objects>
                 <viewController id="I64-TL-eWt" customClass="SettingViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hh5-Ma-PMf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageback" translatesAutoresizingMaskIntoConstraints="NO" id="JRG-3j-vME">
@@ -345,9 +345,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeI-WC-Fl6">
-                                <rect key="frame" x="60" y="527" width="49" height="30"/>
+                                <rect key="frame" x="20" y="711" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="inntoro"/>
+                                <state key="normal" title="テストモード"/>
                                 <connections>
                                     <segue destination="j9o-ME-dbu" kind="show" id="WhD-Jz-hb1"/>
                                 </connections>
@@ -524,7 +524,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rfW-MT-jQf"/>
         <segue reference="WhD-Jz-hb1"/>
     </inferredMetricsTieBreakers>
     <resources>
