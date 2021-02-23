@@ -149,7 +149,7 @@ class ChartViewController: UIViewController,ChartViewDelegate,UIPickerViewDelega
 
         }
         
-        let dataSet = LineChartDataSet(entries: entry, label: "オレの体重")
+        let dataSet = LineChartDataSet(entries: entry, label: "自分の体重")
         chartView.data = LineChartData(dataSet: dataSet)
         
     }
