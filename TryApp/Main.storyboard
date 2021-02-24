@@ -82,7 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UU-hl-RDk">
-                                <rect key="frame" x="45" y="502" width="294" height="51"/>
+                                <rect key="frame" x="45" y="440" width="294" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
@@ -131,7 +131,7 @@
             <objects>
                 <viewController id="OP5-HV-sOl" customClass="ChartViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lE6-7m-iz7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chartBack" translatesAutoresizingMaskIntoConstraints="NO" id="1Tu-I3-v26">
@@ -346,7 +346,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="I64-TL-eWt" customClass="SettingViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hh5-Ma-PMf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageback" translatesAutoresizingMaskIntoConstraints="NO" id="JRG-3j-vME">
@@ -424,7 +424,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="cyR-vO-jtJ" customClass="RecordViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b2L-Hi-BI6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageback" translatesAutoresizingMaskIntoConstraints="NO" id="yc3-8D-9M6">
@@ -544,7 +544,7 @@
             <objects>
                 <viewController storyboardIdentifier="introVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j9o-ME-dbu" customClass="introViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fN4-nl-dDR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twb-y6-i2j">
@@ -600,7 +600,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Xq3-wV-hgI" customClass="ChatViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Naa-dW-dsl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chartBack" translatesAutoresizingMaskIntoConstraints="NO" id="WUR-Za-ZDk">
@@ -608,7 +608,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c1T-Gd-Kpz">
-                                <rect key="frame" x="0.0" y="88" width="376" height="644"/>
+                                <rect key="frame" x="0.0" y="88" width="376" height="575"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -652,10 +652,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WhD-Jz-hb1"/>
+        <segue reference="zwV-gf-MCt"/>
         <segue reference="rfW-MT-jQf"/>
-        <segue reference="3DQ-UC-Oai"/>
-        <segue reference="1em-X8-Z3h"/>
+        <segue reference="Fxx-zJ-1lQ"/>
+        <segue reference="ZCW-Bh-jPs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chartBack" width="1920" height="1440"/>

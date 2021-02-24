@@ -16,11 +16,6 @@ class introViewController: UIViewController,UIScrollViewDelegate {
     
     var onboardStringArray = ["私たちはひとりではありません","どこにいても繋がっています","ひとりでは超えられない壁もきみとであれば","この瞬間から主役へ","さあ、未来は私たちで"]
     
-    
-
-    
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -53,7 +48,6 @@ class introViewController: UIViewController,UIScrollViewDelegate {
     func setUpScroll(){
         
         scrollView.delegate = self
-        
         scrollView.contentSize = CGSize(width: view.frame.size.width * 5, height: scrollView.frame.size.height)
         
         for i in 0...4{
@@ -64,7 +58,6 @@ class introViewController: UIViewController,UIScrollViewDelegate {
             onboardLabel.textAlignment = .center
             onboardLabel.text = onboardStringArray[i]
             scrollView.addSubview(onboardLabel)
-            
         }
     }
 
