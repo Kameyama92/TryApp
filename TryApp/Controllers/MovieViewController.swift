@@ -16,6 +16,8 @@ class MovieViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        
         let path = Bundle.main.path(forResource: "sea", ofType: "mov")
         player = AVPlayer(url: URL(fileURLWithPath: path!))
         player.play()

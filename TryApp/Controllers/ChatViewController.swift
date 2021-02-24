@@ -23,6 +23,8 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
 
         tableView.delegate = self
         tableView.dataSource = self
