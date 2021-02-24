@@ -15,5 +15,8 @@ target 'TryApp' do
   pod 'lottie-ios'
   pod 'SegementSlide'
   pod 'ImpressiveNotifications'
+  pod 'IQKeyboardManagerSwift'
+  pod 'ViewAnimator'
+  pod 'SDWebImage'
 
 end

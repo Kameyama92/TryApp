@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2C6EDB25E638BA00B8275C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6EDA25E638BA00B8275C /* ChatViewController.swift */; };
+		BA2C6EDE25E639FC00B8275C /* SendToDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6EDD25E639FC00B8275C /* SendToDBModel.swift */; };
+		BA2C6EFD25E63BD100B8275C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6EFC25E63BD100B8275C /* Message.swift */; };
+		BA2C6F0025E63BDA00B8275C /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6EFF25E63BDA00B8275C /* RoomModel.swift */; };
+		BA2C6F3C25E63CCD00B8275C /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2C6F3B25E63CCD00B8275C /* MessageCell.xib */; };
+		BA2C6F3F25E63CD500B8275C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6F3E25E63CD500B8275C /* MessageCell.swift */; };
 		BA6846E725E624C600DAAB9A /* sea.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA6846E625E624C600DAAB9A /* sea.mov */; };
 		BA6846EE25E6262B00DAAB9A /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */; };
 		BAA7D02725E4F25F000250D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D02625E4F25F000250D8 /* AppDelegate.swift */; };
@@ -40,6 +46,12 @@
 /* Begin PBXFileReference section */
 		365DEB51C472B22D9DA0158C /* Pods_TryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85941715A56ED608DA527C0E /* Pods-TryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApp.debug.xcconfig"; path = "Target Support Files/Pods-TryApp/Pods-TryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2C6EDA25E638BA00B8275C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BA2C6EDD25E639FC00B8275C /* SendToDBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendToDBModel.swift; sourceTree = "<group>"; };
+		BA2C6EFC25E63BD100B8275C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BA2C6EFF25E63BDA00B8275C /* RoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		BA2C6F3B25E63CCD00B8275C /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		BA2C6F3E25E63CD500B8275C /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		BA6846E625E624C600DAAB9A /* sea.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sea.mov; sourceTree = "<group>"; };
 		BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		BAA7D02325E4F25F000250D8 /* TryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +139,8 @@
 				BAA7D02625E4F25F000250D8 /* AppDelegate.swift */,
 				BAA7D02825E4F25F000250D8 /* SceneDelegate.swift */,
 				BAA7D08025E4F748000250D8 /* Main.storyboard */,
+				BA2C6F3B25E63CCD00B8275C /* MessageCell.xib */,
+				BA2C6F3E25E63CD500B8275C /* MessageCell.swift */,
 				BAA7D03125E4F25F000250D8 /* LaunchScreen.storyboard */,
 				BAA7D02F25E4F25F000250D8 /* Assets.xcassets */,
 				BAA7D0C025E4FCEB000250D8 /* GoogleService-Info.plist */,
@@ -146,7 +160,10 @@
 			children = (
 				BAA7D0DB25E53009000250D8 /* GetDateModel.swift */,
 				BAA7D04125E4F597000250D8 /* GetUserDataModel.swift */,
+				BA2C6EDD25E639FC00B8275C /* SendToDBModel.swift */,
 				BAA7D04425E4F59B000250D8 /* SendModel.swift */,
+				BA2C6EFF25E63BDA00B8275C /* RoomModel.swift */,
+				BA2C6EFC25E63BD100B8275C /* Message.swift */,
 				BAA7D04725E4F5A0000250D8 /* AlertSystem.swift */,
 				BAA7D04A25E4F5A4000250D8 /* PersonalData.swift */,
 				BAA7D05025E4F5AC000250D8 /* LoadModel.swift */,
@@ -161,6 +178,7 @@
 				BAA7D0D725E52F44000250D8 /* ViewController.swift */,
 				BAA7D07125E4F66D000250D8 /* RecordViewController.swift */,
 				BAA7D07425E4F671000250D8 /* TabViewController.swift */,
+				BA2C6EDA25E638BA00B8275C /* ChatViewController.swift */,
 				BAA7D07725E4F675000250D8 /* ChartViewController.swift */,
 				BAA7D07A25E4F678000250D8 /* RankingViewController.swift */,
 				BAA7D0C425E50555000250D8 /* introViewController.swift */,
@@ -233,6 +251,7 @@
 				BAA7D03325E4F25F000250D8 /* LaunchScreen.storyboard in Resources */,
 				BA6846E725E624C600DAAB9A /* sea.mov in Resources */,
 				BAA7D0D125E505DA000250D8 /* 4.json in Resources */,
+				BA2C6F3C25E63CCD00B8275C /* MessageCell.xib in Resources */,
 				BAA7D0CB25E505D2000250D8 /* 2.json in Resources */,
 				BAA7D0CE25E505D7000250D8 /* 3.json in Resources */,
 				BAA7D0D425E505DD000250D8 /* 5.json in Resources */,
@@ -302,11 +321,16 @@
 				BA6846EE25E6262B00DAAB9A /* MovieViewController.swift in Sources */,
 				BAA7D04B25E4F5A4000250D8 /* PersonalData.swift in Sources */,
 				BAA7D02725E4F25F000250D8 /* AppDelegate.swift in Sources */,
+				BA2C6F3F25E63CD500B8275C /* MessageCell.swift in Sources */,
 				BAA7D04825E4F5A0000250D8 /* AlertSystem.swift in Sources */,
+				BA2C6EDE25E639FC00B8275C /* SendToDBModel.swift in Sources */,
 				BAA7D02925E4F25F000250D8 /* SceneDelegate.swift in Sources */,
+				BA2C6F0025E63BDA00B8275C /* RoomModel.swift in Sources */,
 				BAA7D0DC25E53009000250D8 /* GetDateModel.swift in Sources */,
 				BAA7D05125E4F5AC000250D8 /* LoadModel.swift in Sources */,
 				BAA7D0D825E52F44000250D8 /* ViewController.swift in Sources */,
+				BA2C6EFD25E63BD100B8275C /* Message.swift in Sources */,
+				BA2C6EDB25E638BA00B8275C /* ChatViewController.swift in Sources */,
 				BAA7D0C525E50555000250D8 /* introViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
