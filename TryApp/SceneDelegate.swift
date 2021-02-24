@@ -32,7 +32,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
         }else{
             
-            let viewController = storyboard.instantiateViewController(identifier: "firstVC")
+            let viewController = storyboard.instantiateViewController(identifier: "introVC")
             let navigationVC = UINavigationController(rootViewController: viewController)
             window.rootViewController = navigationVC
 

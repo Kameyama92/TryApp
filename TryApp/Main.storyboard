@@ -302,7 +302,7 @@
             <objects>
                 <viewController id="I64-TL-eWt" customClass="SettingViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hh5-Ma-PMf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageback" translatesAutoresizingMaskIntoConstraints="NO" id="JRG-3j-vME">
@@ -469,13 +469,13 @@
         <!--Intro View Controller-->
         <scene sceneID="Nny-lO-GJE">
             <objects>
-                <viewController id="j9o-ME-dbu" customClass="introViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="introVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j9o-ME-dbu" customClass="introViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fN4-nl-dDR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twb-y6-i2j">
-                                <rect key="frame" x="0.0" y="34" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="34" width="414" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="8Jt-DA-sel"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ZlX-Nj-HYD"/>
@@ -502,7 +502,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2h-4E-IDJ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="438" y="180"/>
+            <point key="canvasLocation" x="437.68115942028987" y="179.46428571428569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wYD-Bg-aMP">
@@ -524,6 +524,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="vPC-EY-PGq"/>
         <segue reference="WhD-Jz-hb1"/>
     </inferredMetricsTieBreakers>
     <resources>
