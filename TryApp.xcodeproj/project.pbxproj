@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6846E725E624C600DAAB9A /* sea.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA6846E625E624C600DAAB9A /* sea.mov */; };
+		BA6846EE25E6262B00DAAB9A /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */; };
 		BAA7D02725E4F25F000250D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D02625E4F25F000250D8 /* AppDelegate.swift */; };
 		BAA7D02925E4F25F000250D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D02825E4F25F000250D8 /* SceneDelegate.swift */; };
 		BAA7D03025E4F25F000250D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D02F25E4F25F000250D8 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		365DEB51C472B22D9DA0158C /* Pods_TryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85941715A56ED608DA527C0E /* Pods-TryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApp.debug.xcconfig"; path = "Target Support Files/Pods-TryApp/Pods-TryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6846E625E624C600DAAB9A /* sea.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sea.mov; sourceTree = "<group>"; };
+		BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		BAA7D02325E4F25F000250D8 /* TryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA7D02625E4F25F000250D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAA7D02825E4F25F000250D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 				BAA7D02F25E4F25F000250D8 /* Assets.xcassets */,
 				BAA7D0C025E4FCEB000250D8 /* GoogleService-Info.plist */,
 				BAA7D03425E4F25F000250D8 /* Info.plist */,
+				BA6846E625E624C600DAAB9A /* sea.mov */,
 				BAA7D0C725E505CE000250D8 /* 1.json */,
 				BAA7D0CA25E505D2000250D8 /* 2.json */,
 				BAA7D0CD25E505D7000250D8 /* 3.json */,
@@ -160,6 +165,7 @@
 				BAA7D07A25E4F678000250D8 /* RankingViewController.swift */,
 				BAA7D0C425E50555000250D8 /* introViewController.swift */,
 				BAA7D07D25E4F67B000250D8 /* SettingViewController.swift */,
+				BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 			files = (
 				BAA7D0C825E505CE000250D8 /* 1.json in Resources */,
 				BAA7D03325E4F25F000250D8 /* LaunchScreen.storyboard in Resources */,
+				BA6846E725E624C600DAAB9A /* sea.mov in Resources */,
 				BAA7D0D125E505DA000250D8 /* 4.json in Resources */,
 				BAA7D0CB25E505D2000250D8 /* 2.json in Resources */,
 				BAA7D0CE25E505D7000250D8 /* 3.json in Resources */,
@@ -292,6 +299,7 @@
 				BAA7D07B25E4F678000250D8 /* RankingViewController.swift in Sources */,
 				BAA7D07525E4F671000250D8 /* TabViewController.swift in Sources */,
 				BAA7D04225E4F597000250D8 /* GetUserDataModel.swift in Sources */,
+				BA6846EE25E6262B00DAAB9A /* MovieViewController.swift in Sources */,
 				BAA7D04B25E4F5A4000250D8 /* PersonalData.swift in Sources */,
 				BAA7D02725E4F25F000250D8 /* AppDelegate.swift in Sources */,
 				BAA7D04825E4F5A0000250D8 /* AlertSystem.swift in Sources */,

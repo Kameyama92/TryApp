@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if Auth.auth().currentUser?.uid != nil{
             
            
-            let viewController = storyboard.instantiateViewController(identifier: "tabVC")
+            let viewController = storyboard.instantiateViewController(identifier: "movVC")
             let navigationVC = UINavigationController(rootViewController: viewController)
             window.rootViewController = navigationVC
             

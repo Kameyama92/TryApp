@@ -8,21 +8,66 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Movie View Controller-->
+        <scene sceneID="cYL-tC-3K0">
+            <objects>
+                <viewController storyboardIdentifier="movVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aZG-zA-uOL" customClass="MovieViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DGi-bJ-aqo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZ3-LZ-h70">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="914"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jxr-QR-3ry">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="914"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Never give up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AL-wa-HxX">
+                                            <rect key="frame" x="32" y="161" width="351" height="73"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48y-ny-a9v">
+                                            <rect key="frame" x="-4" y="391" width="423" height="133"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="0.92941176469999998" green="0.94509803920000002" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                            <state key="normal" title="記録する"/>
+                                            <connections>
+                                                <segue destination="CUE-aj-xQP" kind="show" id="3hV-Sl-m4H"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oMs-jN-ylt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhE-bV-xBq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2520" y="-520"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="firstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="T8H-aO-GvM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                             </imageView>
-                            <visualEffectView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yd-4h-QEs">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yd-4h-QEs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kYP-by-Xuz">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                                 <blurEffect style="regular"/>
@@ -87,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656.521739130435" y="179.46428571428569"/>
+            <point key="canvasLocation" x="1103" y="179"/>
         </scene>
         <!--グラフ-->
         <scene sceneID="HB7-Qn-qRt">
@@ -100,6 +145,15 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chartBack" translatesAutoresizingMaskIntoConstraints="NO" id="1Tu-I3-v26">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
+                            <visualEffectView opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LO8-Vo-1IZ">
+                                <rect key="frame" x="0.0" y="-53" width="414" height="895"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0VT-wG-B06">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="895"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="体重の増減(kg)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xa-qq-2p3">
                                 <rect key="frame" x="32" y="121" width="111" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -180,6 +234,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="グラフ" id="RRp-iW-mWF"/>
+                    <navigationItem key="navigationItem" id="TTR-A4-mEx"/>
                     <connections>
                         <outlet property="chartView" destination="LNt-NF-EDr" id="dnO-8s-Ckp"/>
                         <outlet property="label" destination="lmI-S3-cvu" id="VMF-bD-qWB"/>
@@ -284,6 +339,14 @@
                                 </view>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydK-uU-eBk">
+                                <rect key="frame" x="146" y="829" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="自分の成長を確認"/>
+                                <connections>
+                                    <segue destination="OP5-HV-sOl" kind="push" id="1em-X8-Z3h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7Ao-ur-dk4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -310,6 +373,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </imageView>
+                            <visualEffectView opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HUb-RZ-904">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="31u-Dp-ACx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="身長を変更する" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQO-cb-f9A">
                                 <rect key="frame" x="60" y="202" width="294" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -366,7 +438,7 @@
             </objects>
             <point key="canvasLocation" x="2520.289855072464" y="919.41964285714278"/>
         </scene>
-        <!--Record View Controller-->
+        <!--記録する-->
         <scene sceneID="sKH-7Q-Bfs">
             <objects>
                 <viewController id="cyR-vO-jtJ" customClass="RecordViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -378,6 +450,15 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <visualEffectView opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9gM-Sc-PzZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Qwc-qc-BRt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今日の日付" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPr-1C-Xre">
                                 <rect key="frame" x="58" y="146" width="297" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -432,7 +513,7 @@
                         <viewLayoutGuide key="safeArea" id="YT6-Jq-oCx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="write" id="veD-iF-QnY">
+                    <tabBarItem key="tabBarItem" title="記録する" id="veD-iF-QnY">
                         <inset key="imageInsets" minX="0.0" minY="-30" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <connections>
@@ -443,7 +524,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plG-Rf-78u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3382" y="920"/>
+            <point key="canvasLocation" x="3381.1594202898555" y="919.41964285714278"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="3dh-A3-oSv">
@@ -488,7 +569,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="vPC-EY-PGq"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="A9M-st-qnm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -502,7 +583,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2h-4E-IDJ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="437.68115942028987" y="179.46428571428569"/>
+            <point key="canvasLocation" x="-103" y="179"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wYD-Bg-aMP">
@@ -520,12 +601,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3F-we-B1V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-336" y="181"/>
+            <point key="canvasLocation" x="-828" y="179"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vPC-EY-PGq"/>
-        <segue reference="WhD-Jz-hb1"/>
+        <segue reference="zwV-gf-MCt"/>
+        <segue reference="3hV-Sl-m4H"/>
+        <segue reference="1em-X8-Z3h"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="back" width="1696" height="1920"/>
@@ -534,7 +616,6 @@
         <image name="login" width="1280" height="1920"/>
         <image name="rankback" width="1440" height="1920"/>
         <image name="star" width="512" height="512"/>
-        <image name="write" width="80" height="80"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
