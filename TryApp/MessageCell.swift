@@ -21,8 +21,6 @@ class MessageCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
             
-        rightImageView.layer.cornerRadius = 25.0
-        leftImageView.layer.cornerRadius = 25.0
         backView.layer.cornerRadius = 10
         
         // Initialization code

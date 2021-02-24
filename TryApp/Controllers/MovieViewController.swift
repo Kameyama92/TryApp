@@ -33,9 +33,7 @@ class MovieViewController: UIViewController {
             self.player.seek(to: .zero)
             self.player.play()
         }
-        
-        
-        // Do any additional setup after loading the view.
+
     }
     
 

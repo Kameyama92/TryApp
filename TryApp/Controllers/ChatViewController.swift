@@ -118,21 +118,12 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.label.text = message.body
         
         if message.sender == Auth.auth().currentUser?.uid{
-            
-            cell.leftImageView.isHidden = true
-            cell.rightImageView.isHidden = false
-            cell.rightImageView.sd_setImage(with: URL(string: imageString), completed: nil)
-            cell.leftImageView.sd_setImage(with: URL(string: messages[indexPath.row].imageString), completed: nil)
-            
+
             cell.backView.backgroundColor = .systemTeal
             cell.label.textColor = .white
         }else{
             
-            cell.leftImageView.isHidden = false
-            cell.rightImageView.isHidden = true
-            cell.rightImageView.sd_setImage(with: URL(string: imageString), completed: nil)
-            cell.leftImageView.sd_setImage(with: URL(string: messages[indexPath.row].imageString), completed: nil)
-            
+ 
             cell.backView.backgroundColor = .orange
             cell.label.textColor = .white
             
