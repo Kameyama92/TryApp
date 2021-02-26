@@ -34,7 +34,7 @@
                                             <rect key="frame" x="1" y="341" width="380" height="133"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" red="0.92941176469999998" green="0.94509803920000002" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
                                             <state key="normal" title="記録する"/>
                                             <connections>
                                                 <segue destination="CUE-aj-xQP" kind="show" id="3hV-Sl-m4H"/>
@@ -117,6 +117,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="zIn-EO-SIJ"/>
                     <connections>
+                        <outlet property="done" destination="6UU-hl-RDk" id="ere-uW-0L2"/>
                         <outlet property="heightField" destination="Dsq-eZ-b3g" id="1G6-SU-NfQ"/>
                         <outlet property="textField" destination="8wq-bj-ICi" id="ebn-xe-2UU"/>
                         <segue destination="CUE-aj-xQP" kind="show" id="rfW-MT-jQf"/>
@@ -218,6 +219,7 @@
                         <outlet property="label" destination="lmI-S3-cvu" id="VMF-bD-qWB"/>
                         <outlet property="pickerView" destination="Xx5-SX-bnt" id="S18-4m-Cfq"/>
                         <outlet property="resultLabel" destination="GvX-ly-VgT" id="Eon-G6-XsT"/>
+                        <outlet property="tap" destination="J4V-6J-P0J" id="xwj-AZ-gPm"/>
                         <segue destination="jz1-Mt-0HD" kind="show" id="3DQ-UC-Oai"/>
                     </connections>
                 </viewController>
@@ -230,7 +232,7 @@
             <objects>
                 <viewController storyboardIdentifier="rankVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jz1-Mt-0HD" customClass="RankingViewController" customModule="TryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MCT-B2-T7G">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rankback" translatesAutoresizingMaskIntoConstraints="NO" id="1Ni-cW-qCq">
@@ -345,6 +347,7 @@
                     <tabBarItem key="tabBarItem" title="ランキング" id="DVf-GH-EpG"/>
                     <navigationItem key="navigationItem" id="UPo-jp-4Gh"/>
                     <connections>
+                        <outlet property="menu" destination="2Z9-nt-BFP" id="FDF-kr-lpH"/>
                         <outlet property="tableView" destination="Nbp-oD-Azs" id="STo-ZM-5TA"/>
                     </connections>
                 </viewController>
@@ -422,6 +425,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="身長の変更" id="fZ5-fn-q4A"/>
                     <connections>
+                        <outlet property="done" destination="6jH-7O-wQR" id="QJc-kj-8E3"/>
                         <outlet property="heightTextField" destination="KQO-cb-f9A" id="hkn-qG-eBN"/>
                         <outlet property="weightTextField" destination="hNQ-BN-wxB" id="MAy-Yo-UTX"/>
                     </connections>
@@ -476,12 +480,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたの適正体重" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmp-cG-LHS">
-                                <rect key="frame" x="85" y="345" width="243" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたの適正体重は" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmp-cG-LHS">
+                                <rect key="frame" x="86" y="400" width="193" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SlR-AP-gop">
@@ -521,6 +524,7 @@
                         <outlet property="betterWeightLabel" destination="BqY-sM-AFe" id="LoP-Gc-9tU"/>
                         <outlet property="dateLabel" destination="MPr-1C-Xre" id="FSv-Qh-xz2"/>
                         <outlet property="inputTextField" destination="SlR-AP-gop" id="hhD-H8-5cq"/>
+                        <outlet property="recordWeight" destination="E0w-Kp-3CA" id="wP8-Wl-6hv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plG-Rf-78u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -680,9 +684,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lky-bZ-cjI">
-                                        <rect key="frame" x="40" y="456" width="184" height="34"/>
+                                        <rect key="frame" x="24" y="440" width="214" height="38"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="みんなの投稿を確認！"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="みんなの投稿を確認！">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="checkAnswer:" destination="5wb-zm-pIN" eventType="touchUpInside" id="nrY-P0-NAp"/>
                                         </connections>
@@ -743,6 +751,7 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="i9c-8p-vkh"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="kakunin" destination="Lky-bZ-cjI" id="aDE-Up-70n"/>
                         <outlet property="odaiLabel" destination="FGG-6G-c1S" id="f74-UC-QM4"/>
                         <outlet property="textView" destination="emT-1X-tMQ" id="8b1-Ex-TZT"/>
                         <segue destination="Klv-T2-hMW" kind="show" id="MaY-Dy-ZtF"/>
@@ -910,8 +919,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="WhD-Jz-hb1"/>
-        <segue reference="tPv-au-550"/>
-        <segue reference="bGd-mV-D6w"/>
+        <segue reference="3hV-Sl-m4H"/>
+        <segue reference="3DQ-UC-Oai"/>
         <segue reference="1em-X8-Z3h"/>
     </inferredMetricsTieBreakers>
     <resources>

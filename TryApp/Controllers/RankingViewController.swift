@@ -13,11 +13,17 @@ class RankingViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var menu: UIButton!
+    
+    
     var loadModel = LoadModel()
     var rankDataArray = [RankData]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        menu.layer.cornerRadius = 15
+
 
         tableView.delegate = self
         tableView.dataSource = self

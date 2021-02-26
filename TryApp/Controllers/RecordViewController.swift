@@ -18,9 +18,13 @@ class RecordViewController: UIViewController {
     
     @IBOutlet weak var betterWeightLabel: UILabel!
     
+    @IBOutlet weak var recordWeight: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        dateLabel.layer.cornerRadius = 85
+        recordWeight.layer.cornerRadius = 15
         
         //今日の日付
         dateLabel.text = GetDateModel.getTodayDate(slash: false)

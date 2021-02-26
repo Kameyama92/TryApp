@@ -21,13 +21,19 @@ class OdaiController: UIViewController {
     var userName = String()
     
     @IBOutlet weak var odaiLabel: UILabel!
-   
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var kakunin: UIButton!
     
     var idString = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        kakunin.layer.cornerRadius = 15
+        odaiLabel.layer.cornerRadius = 10
+        textView.layer.cornerRadius = 10
+
+        
         
         if UserDefaults.standard.object(forKey: "userName") != nil{
             

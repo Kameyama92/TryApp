@@ -13,10 +13,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var heightField: UITextField!
+    @IBOutlet weak var done: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        done.layer.cornerRadius = 15
+
+        
     }
 
     @IBAction func done(_ sender: Any) {

@@ -16,6 +16,7 @@ class ChartViewController: UIViewController,ChartViewDelegate,UIPickerViewDelega
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var chartView: LineChartView!
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var tap: UIButton!
     
     var chartArray = [PersonalData]()
     var sendModel = SendModel()
@@ -27,6 +28,9 @@ class ChartViewController: UIViewController,ChartViewDelegate,UIPickerViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tap.layer.cornerRadius = 15
+
 
         pickerView.delegate = self
         pickerView.dataSource = self

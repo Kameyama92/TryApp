@@ -12,16 +12,14 @@ class SettingViewController: UIViewController {
     var alertSystem = AlertSystem()
     @IBOutlet weak var heightTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
-    @IBOutlet weak var LogoutButton: UIButton!
-    
-    
-
-    
+    @IBOutlet weak var done: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        done.layer.cornerRadius = 15
 
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func done(_ sender: Any) {
