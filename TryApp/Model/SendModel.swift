@@ -143,8 +143,6 @@ class SendModel {
             UserDefaults.standard.setValue(0, forKey: "done2")
             
         }
-        
-        //data
     }
     
     

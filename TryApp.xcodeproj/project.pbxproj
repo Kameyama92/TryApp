@@ -19,6 +19,9 @@
 		BA3740D325E8CA2A00769741 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3740D225E8CA2A00769741 /* CommentModel.swift */; };
 		BA3740D625E8CA4100769741 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3740D525E8CA4100769741 /* CustomCell.xib */; };
 		BA3740D925E8CA4700769741 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3740D825E8CA4700769741 /* CustomCell.swift */; };
+		BA63D6CA25E8F1710033DBC0 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63D6C925E8F1710033DBC0 /* 3.json */; };
+		BA63D6CE25E8F2560033DBC0 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63D6CD25E8F2560033DBC0 /* 2.json */; };
+		BA63D6D225E8F2FE0033DBC0 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63D6D125E8F2FE0033DBC0 /* 5.json */; };
 		BA6846E725E624C600DAAB9A /* sea.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA6846E625E624C600DAAB9A /* sea.mov */; };
 		BA6846EE25E6262B00DAAB9A /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */; };
 		BAA7D02725E4F25F000250D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D02625E4F25F000250D8 /* AppDelegate.swift */; };
@@ -40,10 +43,7 @@
 		BAA7D0C125E4FCEB000250D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0C025E4FCEB000250D8 /* GoogleService-Info.plist */; };
 		BAA7D0C525E50555000250D8 /* introViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D0C425E50555000250D8 /* introViewController.swift */; };
 		BAA7D0C825E505CE000250D8 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0C725E505CE000250D8 /* 1.json */; };
-		BAA7D0CB25E505D2000250D8 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0CA25E505D2000250D8 /* 2.json */; };
-		BAA7D0CE25E505D7000250D8 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0CD25E505D7000250D8 /* 3.json */; };
 		BAA7D0D125E505DA000250D8 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0D025E505DA000250D8 /* 4.json */; };
-		BAA7D0D425E505DD000250D8 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = BAA7D0D325E505DD000250D8 /* 5.json */; };
 		BAA7D0D825E52F44000250D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D0D725E52F44000250D8 /* ViewController.swift */; };
 		BAA7D0DC25E53009000250D8 /* GetDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7D0DB25E53009000250D8 /* GetDateModel.swift */; };
 		BAAC6ECB25E649E9001F028E /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAC6ECA25E649E9001F028E /* MessageCell.xib */; };
@@ -65,6 +65,9 @@
 		BA3740D225E8CA2A00769741 /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		BA3740D525E8CA4100769741 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		BA3740D825E8CA4700769741 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		BA63D6C925E8F1710033DBC0 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		BA63D6CD25E8F2560033DBC0 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		BA63D6D125E8F2FE0033DBC0 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		BA6846E625E624C600DAAB9A /* sea.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sea.mov; sourceTree = "<group>"; };
 		BA6846ED25E6262B00DAAB9A /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		BAA7D02325E4F25F000250D8 /* TryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,10 +91,7 @@
 		BAA7D0C025E4FCEB000250D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAA7D0C425E50555000250D8 /* introViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introViewController.swift; sourceTree = "<group>"; };
 		BAA7D0C725E505CE000250D8 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
-		BAA7D0CA25E505D2000250D8 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
-		BAA7D0CD25E505D7000250D8 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
 		BAA7D0D025E505DA000250D8 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
-		BAA7D0D325E505DD000250D8 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		BAA7D0D725E52F44000250D8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAA7D0DB25E53009000250D8 /* GetDateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDateModel.swift; sourceTree = "<group>"; };
 		BAAC6ECA25E649E9001F028E /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
@@ -163,10 +163,10 @@
 				BAA7D03425E4F25F000250D8 /* Info.plist */,
 				BA6846E625E624C600DAAB9A /* sea.mov */,
 				BAA7D0C725E505CE000250D8 /* 1.json */,
-				BAA7D0CA25E505D2000250D8 /* 2.json */,
-				BAA7D0CD25E505D7000250D8 /* 3.json */,
+				BA63D6CD25E8F2560033DBC0 /* 2.json */,
+				BA63D6C925E8F1710033DBC0 /* 3.json */,
 				BAA7D0D025E505DA000250D8 /* 4.json */,
-				BAA7D0D325E505DD000250D8 /* 5.json */,
+				BA63D6D125E8F2FE0033DBC0 /* 5.json */,
 			);
 			path = TryApp;
 			sourceTree = "<group>";
@@ -273,13 +273,13 @@
 				BA6846E725E624C600DAAB9A /* sea.mov in Resources */,
 				BAA7D0D125E505DA000250D8 /* 4.json in Resources */,
 				BAAC6ECB25E649E9001F028E /* MessageCell.xib in Resources */,
-				BAA7D0CB25E505D2000250D8 /* 2.json in Resources */,
 				BA3740D625E8CA4100769741 /* CustomCell.xib in Resources */,
-				BAA7D0CE25E505D7000250D8 /* 3.json in Resources */,
-				BAA7D0D425E505DD000250D8 /* 5.json in Resources */,
 				BAA7D03025E4F25F000250D8 /* Assets.xcassets in Resources */,
+				BA63D6CE25E8F2560033DBC0 /* 2.json in Resources */,
+				BA63D6CA25E8F1710033DBC0 /* 3.json in Resources */,
 				BAA7D08125E4F748000250D8 /* Main.storyboard in Resources */,
 				BAA7D0C125E4FCEB000250D8 /* GoogleService-Info.plist in Resources */,
+				BA63D6D225E8F2FE0033DBC0 /* 5.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

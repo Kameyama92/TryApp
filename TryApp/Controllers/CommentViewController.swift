@@ -13,7 +13,6 @@ class CommentViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     
     @IBOutlet weak var textfield: UITextField!
-    
     @IBOutlet weak var sendButton: UIButton!
     
     var idString = String()
@@ -111,15 +110,12 @@ class CommentViewController: UIViewController,UITableViewDelegate,UITableViewDat
                         self.dataSets.append(commentModel)
                         
                     }
-                    
                 }
                 
                 self.dataSets.reverse()
                 self.tableView.reloadData()
             }
-            
         }
-        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -129,7 +125,7 @@ class CommentViewController: UIViewController,UITableViewDelegate,UITableViewDat
         
         let commentLabel = cell.contentView.viewWithTag(1) as! UILabel
         commentLabel.numberOfLines = 0
-        commentLabel.text = "\(self.dataSets[indexPath.row].userName)くん\n\(self.dataSets[indexPath.row].comment)"
+        commentLabel.text = "\(self.dataSets[indexPath.row].userName)さん\n\(self.dataSets[indexPath.row].comment)"
         
         return cell
         

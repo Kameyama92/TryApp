@@ -57,7 +57,7 @@ class CheckViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         tableView.rowHeight = 200
 
         cell.answerLabel.numberOfLines = 0
-        cell.answerLabel.text = "\(self.dataSets[indexPath.row].userName)くんの回答\n\(self.dataSets[indexPath.row].answers)"
+        cell.answerLabel.text = "\(self.dataSets[indexPath.row].userName)さんの回答\n\(self.dataSets[indexPath.row].answers)"
         cell.likeButton.tag = indexPath.row
         cell.countLabel.text = String(self.dataSets[indexPath.row].likeCount) + "いいね"
         cell.likeButton.addTarget(self, action: #selector(like(_:)), for: .touchUpInside)
@@ -168,15 +168,4 @@ class CheckViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         }
         }
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

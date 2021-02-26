@@ -31,9 +31,7 @@ class RankingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         loadModel.getRankProtocol = self
 //        rankDataArray = []
         loadModel.loadRankingData(userID: Auth.auth().currentUser!.uid)
-        
-        
-        // Do any additional setup after loading the view.
+
     }
     
     
@@ -81,8 +79,6 @@ class RankingViewController: UIViewController,UITableViewDelegate,UITableViewDat
         tableView.reloadData()
         
     }
-   
-    
 
 
 }

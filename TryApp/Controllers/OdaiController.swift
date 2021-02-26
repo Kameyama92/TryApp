@@ -39,8 +39,6 @@ class OdaiController: UIViewController {
             
             userName = UserDefaults.standard.object(forKey: "userName") as! String
         }
-        
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -129,9 +127,5 @@ class OdaiController: UIViewController {
         self.navigationController?.popViewController(animated: true)
         
     }
-    
-    
-    
-
 }
 
