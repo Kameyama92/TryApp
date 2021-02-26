@@ -21,7 +21,7 @@ class CheckViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         odaiLabel.text = odaiString
         tableView.delegate = self
         tableView.dataSource = self
