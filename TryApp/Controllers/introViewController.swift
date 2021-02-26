@@ -1,8 +1,7 @@
 //
 //  introViewController.swift
-//  DiveApp
-//
-//  Created by 亀山真矢 on 2021/02/19.
+//  TryApp
+//  Created by 亀山真矢 on 2021/02/26.
 //
 
 import UIKit
@@ -18,6 +17,8 @@ class introViewController: UIViewController,UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tabBarController?.tabBar.isHidden = true
         
         //ページングができるようになる
         scrollView.isPagingEnabled = true

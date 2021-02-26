@@ -1,8 +1,7 @@
 //
 //  MovieViewController.swift
 //  TryApp
-//
-//  Created by 亀山真矢 on 2021/02/24.
+//  Created by 亀山真矢 on 2021/02/26.
 //
 
 import UIKit

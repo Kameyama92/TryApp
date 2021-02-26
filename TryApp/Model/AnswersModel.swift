@@ -1,9 +1,8 @@
 //
-//  AnswersModel.swift
-//  Swift6FireStore1
+//  TryApp
+//  Created by 亀山真矢 on 2021/02/26.
 //
-//  Created by Yuta Fujii on 2020/09/06.
-//
+
 
 import Foundation
 

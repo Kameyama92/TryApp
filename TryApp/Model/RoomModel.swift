@@ -1,8 +1,7 @@
 //
 //   RoomModel.swift
-//  Swift6ChatApp1
-//
-//  Created by Yuta Fujii on 2020/09/27.
+//  TryApp
+//  Created by 亀山真矢 on 2021/02/26.
 //
 
 import Foundation

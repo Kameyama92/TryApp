@@ -1,8 +1,7 @@
 //
 //  TabViewController.swift
-//  Swift6BMIApp1
-//
-//  Created by Yuta Fujii on 2021/02/01.
+//  TryApp
+//  Created by 亀山真矢 on 2021/02/26.
 //
 
 import UIKit
