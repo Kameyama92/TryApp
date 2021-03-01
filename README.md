@@ -2,6 +2,7 @@
 # Name（リポジトリ/プロジェクト/OSSなどの名前）
 
 分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+![chat](https://user-images.githubusercontent.com/77086536/109447411-f506c500-7a86-11eb-9732-8ecc53ba5dbb.gif)
 
 "hoge"が何かを簡潔に紹介する
 
