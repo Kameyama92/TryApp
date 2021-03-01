@@ -1,12 +1,15 @@
 
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# TryApp（オリジナル作成アプリ）
 
 分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
 ![chat](https://user-images.githubusercontent.com/77086536/109447411-f506c500-7a86-11eb-9732-8ecc53ba5dbb.gif)
 
+
 "hoge"が何かを簡潔に紹介する
 
 # DEMO
+
+<img src="https://user-images.githubusercontent.com/77086536/109447411-f506c500-7a86-11eb-9732-8ecc53ba5dbb.gif" width="250px">
 
 "hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
 
